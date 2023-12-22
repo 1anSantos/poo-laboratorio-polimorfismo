@@ -1,6 +1,6 @@
 class ProcessadorTransacoes {
     constructor() {
-        this._totalDespesasDoMes = totalDespesasDoMes;
+        this._totalDespesasDoMes = 0;
     }
     getTotalDespesasDoMes() {
         return this._totalDespesasDoMes;
