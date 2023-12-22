@@ -8,7 +8,7 @@ class ProcessadorTransacoes {
     }
     processar(transacao) {
         transacao.informacao();
-        this._totalDespesaDoMes += transacao.getValor();
+        this._totalDespesasDoMes += transacao.getValor();
     }
 }
 
