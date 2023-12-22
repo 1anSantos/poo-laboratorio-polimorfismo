@@ -1,6 +1,5 @@
 class ProcessadorTransacoes {
-    constructor(valor, descricao, totalDespesasDoMes) {
-        super(valor, descricao);
+    constructor() {
         this._totalDespesasDoMes = totalDespesasDoMes;
     }
     getTotalDespesasDoMes() {
