@@ -4,7 +4,6 @@ class Conta extends Transacao {
     constructor(valor, descricao, vencimento) {
         super(valor, descricao);
         this._vencimento = vencimento;
-        this._id = id;
     }
     getVencimento() {
         return this._vencimento;
