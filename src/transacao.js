@@ -16,7 +16,7 @@ class Transacao {
         this._descricao = descricao;
     }
     informacao() {
-        return `Processando: ${this.getDescricao()}\nValor: ${this.getValor()}`;
+        return `Descrição: ${this.getDescricao()}\nValor: ${this.getValor()}`;
     }
 }
 

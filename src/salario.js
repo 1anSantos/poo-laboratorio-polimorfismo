@@ -8,14 +8,14 @@ class Salario extends Transacao {
     getBonificacao(){
         return this._bonificacao;
     }
-    setBonificacao() {
+    setBonificacao(bonificacao) {
         this._bonificacao = bonificacao;
     }
     getValor() {
         return super.getValor() + this._bonificacao;
     }
     informacao() {
-        return `${super.informacao()}\nBonificacao: ${this.getBonificacao()}`;
+        return `${super.informacao()}\nBonificacao: ${this.getBonificacao()}\nValor Original: ${this.getValor()-this.getBonificacao()}`;
     }
 }
 

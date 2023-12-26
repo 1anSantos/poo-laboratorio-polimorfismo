@@ -6,7 +6,7 @@ class ProcessadorTransacoes {
         return this._totalDespesasDoMes;
     }
     processar(transacao) {
-        transacao.informacao();
+        console.log(`-------\nProcessando: ${transacao.constructor.name}\n`+transacao.informacao());
         this._totalDespesasDoMes += transacao.getValor();
     }
 }

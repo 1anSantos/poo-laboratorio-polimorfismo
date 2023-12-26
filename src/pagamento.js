@@ -8,6 +8,9 @@ class Pagamento extends Transacao {
     getData() {
         return this._data;
     }
+    setData(data) {
+        this._data = data;
+    }
     informacao() {
         return `${super.informacao()}\nData: ${this.getData()}`;
     }
